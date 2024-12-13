@@ -47,4 +47,5 @@ https://discord.com/channels/516715744646660106/1311557732175712376/131616006601
 <li>
       <p id="topSectionForAddingElementToList">
 
+<li class="editMode"> - basic 1.2
 
