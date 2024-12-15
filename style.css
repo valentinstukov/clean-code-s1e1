@@ -17,7 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .eisenhower-matrix { text-align: center;
   }
 }
@@ -35,18 +35,18 @@
   display: flex;
 }
 #incompleteTasks, #completed-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .editMode, .h3-todo, .h3-completed {
-  list-style:none;
+  list-style: none;
 }
 #new-task, 
 .task, 
 .add,
 .edit,
 .delete {
-  outline:none;
+  outline: none;
 }
 .add,
 .edit,
@@ -148,14 +148,14 @@ button.delete img:hover {
 
 /* Edit Task */
 ul li input[type=text] {
-  display:none
+  display: none
 }
 
 ul .editMode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 ul .editMode label {
-  display:none;
+  display: none;
 }
