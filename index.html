@@ -5,19 +5,19 @@
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
       <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
-  <body>
+  <body class="page">
     <div class="eisenhower-matrix"><img src="./eisenhower-matrix.jpg">
       <a class="more_info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
     <div class="content">
       <p id="topSectionForAddingElementToList">
-        <label for="new-task">Add Item</label>
+        <label for="new-task" class="new-task-label">Add Item</label>
         <div class="add-field">
           <input id="new-task"class="task" type="text">
-          <button>Add</button>
+          <button class="add">Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
+      <h3 class="h3-todo">Todo</h3>
         <ul id="incompleteTasks">
           <li>
             <input type="checkbox">
@@ -34,7 +34,7 @@
             <button class="delete"><img src="./remove.svg"></button>
           </li>
         </ul>
-        <h3>Completed</h3>
+        <h3 class="h3-completed">Completed</h3>
         <ul id="completed-tasks">
           <li>
             <input type="checkbox" checked>
