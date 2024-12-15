@@ -18,7 +18,8 @@
 }
 
 @media (max-width: 768px) {
-  .eisenhower-matrix { text-align: center;
+  .eisenhower-matrix 
+  { text-align: center;
   }
 }
 .content {
@@ -34,11 +35,14 @@
 .add-field {
   display: flex;
 }
-#incompleteTasks, #completed-tasks {
+#incompleteTasks, 
+#completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.editMode, .h3-todo, .h3-completed {
+.editMode, 
+.h3-todo, 
+.h3-completed {
   list-style: none;
 }
 #new-task, 
