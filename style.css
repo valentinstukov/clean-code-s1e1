@@ -106,7 +106,7 @@
 }
 
 /* Task list */
-li {
+.todo {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -115,28 +115,51 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+#todoEditMode {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo > * {
   vertical-align: middle;
 }
-
-li > input[type="checkbox"] {
+#todoEditMode > * {
+  vertical-align: middle;
+}
+.todo > .task[type="checkbox"] {
   margin: 0 10px;
 }
-li > label {
+#todoEditMode > .task[type="checkbox"] {
+  margin: 0 10px;
+}
+.todo > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+#todoEditMode > .task {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+.todo >    .task[type="text"] {
   width: 226px
 }
-button.delete img {
+#todoEditMode >    .task[type="text"] {
+  width: 226px
+}
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -145,17 +168,20 @@ button.delete img:hover {
   text-decoration: line-through
   color: #888;
 }
-
-/* Edit Task */
-ul li input[type=text] {
+#completed-tasks .todo .task[type=text] {
   display: none
 }
 
-ul .editMode input[type=text] {
+/* Edit Task */
+#incompleteTasks .todo .task[type=text] {
+  display: none
+}
+
+#incompleteTasks .editMode .task[type=text] {
   display: inline-block;
   width: 224px
 }
 
-ul .editMode label {
+#incompleteTasks .editMode .task {
   display: none;
 }
