@@ -4,7 +4,8 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.eisenhower-matrix {
+.eisenhower-matrix,
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -22,7 +23,8 @@
   { text-align: center;
   }
 }
-.content {
+.content,
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -36,7 +38,9 @@
   display: flex;
 }
 #incomplete-tasks, 
-#completed-tasks {
+#completed-tasks,
+.incomplete-tasks-section,
+.completed-tasks-section {
   margin: 0;
   padding: 0px;
 }
@@ -75,7 +79,8 @@
 /* Heading */
 .h3-todo,
 .h3-completed,
-.new-task-label {
+.new-task-label,
+.add-field-section {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +106,8 @@
 }
 
 /* New Task */
-.new-task-label {
+.new-task-label,
+.add-field-section {
   display: block;
   margin: 0 0 20px;
 }
