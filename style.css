@@ -35,12 +35,12 @@
 .add-field {
   display: flex;
 }
-#incompleteTasks, 
+#incomplete-tasks, 
 #completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.editMode, 
+.edit-mode, 
 .h3-todo, 
 .h3-completed {
   list-style: none;
@@ -119,7 +119,7 @@
   justify-content: space-between;
   align-items: center;
 }
-#todoEditMode {
+#todo-edit-mode {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -131,13 +131,13 @@
 .todo > * {
   vertical-align: middle;
 }
-#todoEditMode > * {
+#todo-edit-mode > * {
   vertical-align: middle;
 }
 .todo > .task[type="checkbox"] {
   margin: 0 10px;
 }
-#todoEditMode > .task[type="checkbox"] {
+#todo-edit-mode > .task[type="checkbox"] {
   margin: 0 10px;
 }
 .todo > .task {
@@ -146,7 +146,7 @@
   font-size: 18px;
   width: 226px;
 }
-#todoEditMode > .task {
+#todo-edit-mode > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -155,7 +155,7 @@
 .todo >    .task[type="text"] {
   width: 226px;
 }
-#todoEditMode >    .task[type="text"] {
+#todo-edit-mode >    .task[type="text"] {
   width: 226px;
 }
 .delete img {
@@ -177,15 +177,15 @@
 }
 
 /* Edit Task */
-#incompleteTasks .todo .task[type=text] {
+#incomplete-tasks .todo .task[type=text] {
   display: none;
 }
 
-#incompleteTasks .editMode .task[type=text] {
+#incomplete-tasks .edit-mode .task[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-#incompleteTasks .editMode .task {
+#incomplete-tasks .edit-mode .task {
   display: none;
 }
