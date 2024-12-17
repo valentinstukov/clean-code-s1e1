@@ -184,10 +184,7 @@
   text-decoration: line-through;
   color: #888;
 } 
-/* #completed-tasks .todo .task[type=text] {
 
-  display: none;
-} */
 
 /* Edit Task */
 .task-input {
