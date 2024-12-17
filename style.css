@@ -11,16 +11,14 @@
   display: block;
   text-align: right;
 }
-.eisenhower-matrix img {
-  width: 100%;
-}
+
 .eisenhower-matrix .more_info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .eisenhower-matrix 
-  { text-align: center;
+  .eisenhower-matrix {
+    text-align: center;
   }
 }
 .content,
@@ -172,12 +170,12 @@
 /* #todo-edit-mode >    .task[type="text"] {
   width: 226px;
 } */
-.delete img {
+.remove-button {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.remove-button:hover {
   transform: rotateZ(0);
 }
 
