@@ -35,7 +35,8 @@
   flex-grow: 1;
 }
 .task-input,
-.task-label {
+.task-label,
+.add-task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -95,7 +96,8 @@
   margin: 0;
   text-transform: uppercase;
 }
-.task-input {
+.task-input,
+.add-task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
