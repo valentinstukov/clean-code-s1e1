@@ -52,8 +52,8 @@
   padding: 0px;
 }
 .edit-mode, 
-.h3-todo, 
-.h3-completed {
+.h1-todo, 
+.h1-completed {
   list-style: none;
 }
 #new-task, 
@@ -84,8 +84,8 @@
   color: #3a3a3a;
 }
 /* Heading */
-.h3-todo,
-.h3-completed,
+.h1-todo,
+.h1-completed,
 .new-task-label,
 .add-field-section {
   color: #333;
