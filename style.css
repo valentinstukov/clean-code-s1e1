@@ -167,9 +167,7 @@
 .task-input {
   width: 226px;
 }
-/* #todo-edit-mode >    .task[type="text"] {
-  width: 226px;
-} */
+
 .remove-button {
   height: 2em;
   transform: rotateZ(45deg);
