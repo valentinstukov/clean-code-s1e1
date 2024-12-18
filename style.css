@@ -15,7 +15,9 @@
 .eisenhower-matrix .more_info {
   font-family: fantasy, cursive;
 }
-
+.eisenhower-picture {
+  width: 100%;
+}
 @media (max-width: 768px) {
   .eisenhower-matrix {
     text-align: center;
